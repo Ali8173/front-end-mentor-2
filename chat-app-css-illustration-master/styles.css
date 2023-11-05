@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(276, 100%, 99%);
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg_div {
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    position: absolute;
+    left: -90px;
+}
+
+.main_div {
+    width: 220px;
+    height: 480px;
+    background-color: white;
+    position: absolute;
+    left: 250px;
+    top: 110px;
+    border-radius: 25px;
+    box-shadow: 5px -5px 20px 15px rgb(24, 23, 23, 0.1);
+}
+
+.sub-main_div {
+    background-color: hsl(270, 20%, 96%);
+    height: 460px;
+    width: 210px;
+    border-radius: 25px;
+    margin: 10px 5px;
+    position: relative;
+}
+
+/*||I-PHONE HEADER*/
+.iphone_head {
+    width: 130px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 43px;
+    top: -5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    z-index: 3
+}
+
+.app_header {
+    width: 210px;
+    height: 60px;
+    background: linear-gradient(90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10px;
+}
+
+.samuel {
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 50px;
+    font-size: 8px;
+}
+
+.sub_samuel {
+    font-size: 13px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    position: absolute;
+    left: -25px;
+    top: 5px;
+}
+
+.back_btn_top {
+    width: 6px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(-58deg);
+    position: absolute;
+    left: -38px;
+    top: 12px;
+}
+
+.back_btn_bottom {
+    width: 6px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(58deg);
+    position: absolute;
+    left: -38px;
+    top: 16px;
+}
+
+.dot_menu {
+    position: absolute;
+    left: 140px;
+    top: 12px;
+}
+
+.top_menu_dot {
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 1px;
+}
+
+.middle_menu_dot {
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 1px;
+}
+
+.bottom_menu_dot {
+    width: 2px;
+    height: 2px;
+    background-color: white;
+}
+
+/*||CHAT*/
+.chat {
+    margin-left: 8px;
+    font-size: 8px;
+    margin-right: 8px;
+}
+
+.first_chat {
+    background-color: hsl(270, 25%, 92%);
+    height: 10%;
+    width: 60%;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    margin-top:10px;
+}
+
+.second_chat {
+    background-color: hsl(270, 25%, 92%);
+    height: 10%;
+    width: 60%;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    margin-top: 8px;
+}
+
+.dogs {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.dogss {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.third_chat {
+    background-color: white;
+    height: 10%;
+    width: 60%;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 8px;
+    margin-left: 72px;
+}
+
+.fourth_chat {
+    background-color: white;
+    height: 10%;
+    width: 60%;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 8px;
+    margin-left: 72px;
+}
+
+.fifth_chat {
+    background-color: hsl(270, 25%, 92%);
+    height: 10%;
+    width: 60%;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    margin-top: 15px;
+}
+
+.first_minute_walk {
+    background: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    height: 30px;
+    width: 80%;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    margin-top: 8px;
+    position: relative;
+    color: white;
+}
+
+.money {
+    font-size: 15px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-weight: 900;
+}
+
+.walk {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+.circle {
+    width: 13px;
+    height: 13px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    opacity: 0.4;
+}
+
+.second_minute_walk {
+    background: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    height: 30px;
+    width: 80%;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    margin-top: 8px;
+    position: relative;
+    color: white;
+}
+
+.message {
+    background-color: white;
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 10px;
+    left: 21px;
+    font-size: 13px;
+    color: hsl(206, 6%, 79%);
+}
+
+.send {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    position: absolute;
+    right: 8px;
+    top: 7px;
+}
+
+.send_btn_top {
+    width: 7px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(56deg);
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.send_btn_bottom {
+    width: 7px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(-50deg);
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+.btn {
+    position: absolute;
+    top: 1px;
+    right: -1px;
+}
+
+.section_2 {
+    text-align: left;
+    margin-top: 210px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 120px;
+    z-index: 1;
+}
+
+h1 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: hsl(271, 36%, 24%);
+}
+
+.ps {
+    color: hsl(270, 7%, 64%);
+}
+
+.background_design {
+    width: 500px;
+    height: 550px;
+    background: hsl(270, 20%, 96%);
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    position: absolute;
+    right: -130px;
+    top: 120px;
+    z-index: -1;
+}
+
+@media only screen and (max-width:400px) {
+    body {
+        position: relative;
+       
+    }
+
+    .bg_div {
+        width: 140px;
+        height: 500px;
+        background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        border-bottom-left-radius: 400px;
+        border-bottom-right-radius: 400px;
+        position: absolute;
+        
+    }
+
+    .main_div {
+        width: 220px;
+        height: 475px;
+        background-color: white;
+        position: absolute;
+        left: 150px;
+        top: 50px;
+        border-radius: 25px;
+        box-shadow: 5px -5px 20px 10px rgb(24, 23, 23, 0.1);
+        z-index: 99;
+    }
+
+    .section_2 {
+        text-align: center;
+        margin-top: 210px;
+        width: 390px;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 20px;
+        z-index: 1;
+        position: absolute;
+        top: 350px;
+    }
+    .ps{
+        width:90%;
+    }
+    h1{
+        width:90%;
+    }
+
+    .background_design {
+        width: 300px;
+        height: 400px;
+        background: hsl(270, 20%, 96%);
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        position: absolute;
+        right: -100px;
+        top: -170px;
+        z-index: -3;
+        display:none;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .bg_div {
+        width: 450px;
+        height: 500px;
+        background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        border-bottom-left-radius: 400px;
+        border-bottom-right-radius: 400px;
+        position: absolute;
+        left: -20%;
+    }
+
+    .main_div {
+        width: 220px;
+        height: 475px;
+        background-color: white;
+        position: absolute;
+        left: 150px;
+        top: 50px;
+        border-radius: 25px;
+        box-shadow: 5px -5px 20px 10px rgb(24, 23, 23, 0.1);
+        z-index: 99;
+    }
+
+    .section_2 {
+        text-align: left;
+        margin-top: 210px;
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 50px;
+        z-index: 1;
+    }
+
+    .background_design {
+        width: 450px;
+        height: 500px;
+        background: hsl(270, 20%, 96%);
+        border-top-left-radius: 400px;
+        border-top-right-radius: 400px;
+        position: absolute;
+        right: -150px;
+        top: 170px;
+        z-index: -3;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .bg_div {
+        width: 370px;
+        height: 500px;
+        background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        border-bottom-left-radius: 200px;
+        border-bottom-right-radius: 200px;
+        position: absolute;
+        left: -20%;
+    }
+
+    .main_div {
+        width: 220px;
+        height: 440px;
+        background-color: white;
+        position: absolute;
+        left: 150px;
+        top: 50px;
+        border-radius: 25px;
+        box-shadow: 5px -5px 20px 10px rgb(24, 23, 23, 0.1);
+        z-index: 99;
+    }
+
+    .sub-main_div {
+        background-color: hsl(270, 20%, 96%);
+        height: 425px;
+        width: 210px;
+        border-radius: 25px;
+        margin: 10px 5px;
+        position: relative;
+    }
+    .chat {
+        margin-left: 8px;
+        font-size: 6px;
+        margin-right: 8px;
+        margin-top:-2%;
+    }
+    .section_2 {
+        text-align: center;
+        margin-top: 170px;
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 90px;
+        z-index: 1;
+    }
+}
+@media only screen and (max-width:690px){
+    .bg_div {
+        width: 650px;
+        height: 500px;
+        background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        border-bottom-left-radius: 500px;
+        border-bottom-right-radius: 500px;
+        position: absolute;
+        left: -50%;
+    }
+    .main_div {
+        width: 240px;
+        height: 470px;
+        background-color: white;
+        position: absolute;
+        left: 250px;
+        top: 50px;
+        border-radius: 25px;
+        box-shadow: 5px -5px 20px 10px rgb(24, 23, 23, 0.1);
+        z-index: 99;
+    }
+    .sub-main_div {
+        background-color: hsl(270, 20%, 96%);
+        height: 455px;
+        width: 230px;
+        border-radius: 25px;
+        margin: 10px 5px;
+        position: relative;
+    }
+    .app_header{
+        width:230px;
+    }
+    .chat {
+        margin-left: 8px;
+        font-size: 8px;
+        margin-right:-7%;
+        margin-top:-2%;
+    }
+    .dogss{
+        margin-left:25%;
+    }
+    .message {
+        background-color: white;
+        height: 35px;
+        width: 90%;
+        padding: 5px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        position: relative;
+    }
+    .dot_menu {
+        position: absolute;
+        left: 155px;
+        top: 12px;
+    }
+    .back_btn_top {
+        width: 6px;
+        height: 2px;
+        background-color: white;
+        transform: rotate(-58deg);
+        position: absolute;
+        left: -50px;
+        top: 12px;
+    }
+    
+    .back_btn_bottom {
+        width: 6px;
+        height: 2px;
+        background-color: white;
+        transform: rotate(58deg);
+        position: absolute;
+        left: -50px;
+        top: 16px;
+    }
+    .avatar {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        border: 1px solid white;
+        position: absolute;
+        left: -23px;
+        top: 5px;
+    }
+    .iphone_head {
+        width: 130px;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        left: 52px;
+        top: -5px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        z-index: 3
+    }
+    .samuel {
+        color: hsl(0, 0%, 100%);
+        position: absolute;
+        z-index: 2;
+        top: 20px;
+        left: 65px;
+        font-size: 9px;
+    }
+    .section_2 {
+        text-align: center;
+        margin-top: 210px;
+        margin-left:70px;
+        width: 460px;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 20px;
+        z-index: 1;
+        position: absolute;
+        top: 370px;
+    }
+    .background_design {
+        width: 500px;
+        height: 410px;
+        background: hsl(270, 20%, 96%);
+        border-top-left-radius: 400px;
+        border-top-right-radius: 400px;
+        position: absolute;
+        left:300px;
+        top: -170px;
+        z-index: -3;
+    }
+}
